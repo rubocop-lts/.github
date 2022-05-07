@@ -65,7 +65,7 @@ contributors must adhered to.
 [🖇️19-dti]: https://img.shields.io/gem/dt/rubocop-ruby1_9.svg
 [🏘️19-rti]: https://img.shields.io/gem/rt/rubocop-ruby1_9.svg
 [🚎19-cwf]: https://github.com/rubocop-lts/rubocop-ruby1_9/actions/workflows/current.yml
-[🚎19-cwfi]: https://github.com/rubocop-lts/rubocop-ruby1_9/actions/workflows/supported.yml/badge.svg
+[🚎19-cwfi]: https://github.com/rubocop-lts/rubocop-ruby1_9/actions/workflows/current.yml/badge.svg
 [🖐19-hwf]: https://github.com/rubocop-lts/rubocop-ruby1_9/actions/workflows/heads.yml
 [🖐19-hwfi]: https://github.com/rubocop-lts/rubocop-ruby1_9/actions/workflows/heads.yml/badge.svg
 [🧮19-lwf]: https://github.com/rubocop-lts/rubocop-ruby1_9/actions/workflows/legacy.yml
@@ -83,7 +83,7 @@ contributors must adhered to.
 [🖇️20-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_0.svg
 [🏘️20-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_0.svg
 [🚎20-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_0/actions/workflows/current.yml
-[🚎20-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_0/actions/workflows/supported.yml/badge.svg
+[🚎20-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_0/actions/workflows/current.yml/badge.svg
 [🖐20-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_0/actions/workflows/heads.yml
 [🖐20-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_0/actions/workflows/heads.yml/badge.svg
 [🧮20-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_0/actions/workflows/legacy.yml
@@ -101,7 +101,7 @@ contributors must adhered to.
 [🖇️21-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_1.svg
 [🏘️21-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_1.svg
 [🚎21-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_1/actions/workflows/current.yml
-[🚎21-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_1/actions/workflows/supported.yml/badge.svg
+[🚎21-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_1/actions/workflows/current.yml/badge.svg
 [🖐21-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_1/actions/workflows/heads.yml
 [🖐21-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_1/actions/workflows/heads.yml/badge.svg
 [🧮21-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_1/actions/workflows/legacy.yml
@@ -119,7 +119,7 @@ contributors must adhered to.
 [🖇️22-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_2.svg
 [🏘️22-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_2.svg
 [🚎22-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_2/actions/workflows/current.yml
-[🚎22-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_2/actions/workflows/supported.yml/badge.svg
+[🚎22-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_2/actions/workflows/current.yml/badge.svg
 [🖐22-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_2/actions/workflows/heads.yml
 [🖐22-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_2/actions/workflows/heads.yml/badge.svg
 [🧮22-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_2/actions/workflows/legacy.yml
@@ -137,7 +137,7 @@ contributors must adhered to.
 [🖇️23-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_3.svg
 [🏘️23-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_3.svg
 [🚎23-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/current.yml
-[🚎23-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/supported.yml/badge.svg
+[🚎23-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/current.yml/badge.svg
 [🖐23-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/heads.yml
 [🖐23-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/heads.yml/badge.svg
 [🧮23-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/legacy.yml
@@ -155,7 +155,7 @@ contributors must adhered to.
 [🖇️24-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_4.svg
 [🏘️24-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_4.svg
 [🚎24-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_4/actions/workflows/current.yml
-[🚎24-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_4/actions/workflows/supported.yml/badge.svg
+[🚎24-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_4/actions/workflows/current.yml/badge.svg
 [🖐24-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_4/actions/workflows/heads.yml
 [🖐24-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_4/actions/workflows/heads.yml/badge.svg
 [🧮24-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_4/actions/workflows/legacy.yml
@@ -173,7 +173,7 @@ contributors must adhered to.
 [🖇️25-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_5.svg
 [🏘️25-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_5.svg
 [🚎25-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_5/actions/workflows/current.yml
-[🚎25-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_5/actions/workflows/supported.yml/badge.svg
+[🚎25-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_5/actions/workflows/current.yml/badge.svg
 [🖐25-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_5/actions/workflows/heads.yml
 [🖐25-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_5/actions/workflows/heads.yml/badge.svg
 [🧮25-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_5/actions/workflows/legacy.yml
@@ -191,7 +191,7 @@ contributors must adhered to.
 [🖇️26-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_6.svg
 [🏘️26-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_6.svg
 [🚎26-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_6/actions/workflows/current.yml
-[🚎26-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_6/actions/workflows/supported.yml/badge.svg
+[🚎26-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_6/actions/workflows/current.yml/badge.svg
 [🖐26-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_6/actions/workflows/heads.yml
 [🖐26-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_6/actions/workflows/heads.yml/badge.svg
 [🧮26-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_6/actions/workflows/legacy.yml
@@ -209,7 +209,7 @@ contributors must adhered to.
 [🖇️27-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_7.svg
 [🏘️27-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_7.svg
 [🚎27-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/current.yml
-[🚎27-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/supported.yml/badge.svg
+[🚎27-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/current.yml/badge.svg
 [🖐27-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/heads.yml
 [🖐27-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/heads.yml/badge.svg
 [🧮27-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/legacy.yml
@@ -227,7 +227,7 @@ contributors must adhered to.
 [🖇️30-dti]: https://img.shields.io/gem/dt/rubocop-ruby3_0.svg
 [🏘️30-rti]: https://img.shields.io/gem/rt/rubocop-ruby3_0.svg
 [🚎30-cwf]: https://github.com/rubocop-lts/rubocop-ruby3_0/actions/workflows/current.yml
-[🚎30-cwfi]: https://github.com/rubocop-lts/rubocop-ruby3_0/actions/workflows/supported.yml/badge.svg
+[🚎30-cwfi]: https://github.com/rubocop-lts/rubocop-ruby3_0/actions/workflows/current.yml/badge.svg
 [🖐30-hwf]: https://github.com/rubocop-lts/rubocop-ruby3_0/actions/workflows/heads.yml
 [🖐30-hwfi]: https://github.com/rubocop-lts/rubocop-ruby3_0/actions/workflows/heads.yml/badge.svg
 [🧮30-lwf]: https://github.com/rubocop-lts/rubocop-ruby3_0/actions/workflows/legacy.yml
@@ -245,7 +245,7 @@ contributors must adhered to.
 [🖇️31-dti]: https://img.shields.io/gem/dt/rubocop-ruby3_1.svg
 [🏘️31-rti]: https://img.shields.io/gem/rt/rubocop-ruby3_1.svg
 [🚎31-cwf]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/current.yml
-[🚎31-cwfi]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/supported.yml/badge.svg
+[🚎31-cwfi]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/current.yml/badge.svg
 [🖐31-hwf]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/heads.yml
 [🖐31-hwfi]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/heads.yml/badge.svg
 [🧮31-lwf]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/legacy.yml
@@ -259,7 +259,6 @@ contributors must adhered to.
 [👽31-pc]: https://github.com/rubocop-lts/rubocop-ruby3_1/pulls?q=is%3Apr+is%3Aclosed
 [👽31-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby3_1
 [⛳️31-g]: https://rubygems.org/gems/rubocop-ruby3_1
-
 
 🍿 Fun facts
 
