@@ -34,6 +34,10 @@ contributors must adhered to.
 
 ## How to Upgrade Step Wise
 
+> NOTE: Look [here][what1_8] if you have a library still supporting Ruby 1.8.7, or are looking to drop support for Ruby 1.8.7 following SemVer.
+
+[what1_8]: https://github.com/rubocop-lts/rubocop-ruby1_9#what-about-ruby-18
+
 > NOTE: `rubocop-lts` is under active development, and hasn't had any releases yet.  The ruby specific versions, e.g. `rubocop-ruby2_7`, are complete already, and you can use them! Keep scrolling down for links to each of them.
 
 | Your Ruby     | Your Gemfile                         |     | required_ruby_version   | Your Gemfile.lock            | Your .rubocop.yml              |
