@@ -32,7 +32,36 @@ contributors must adhered to.
 | `3.0.x`   | `gem "rubocop-lts", "~> 10.0"` | `rubocop-ruby3_0` | `inherit_gem: rubocop-lts.yml` |
 | `3.1.x`   | `gem "rubocop-lts", "~> 11.0"` | `rubocop-ruby3_1` | `inherit_gem: rubocop-lts.yml` |
 
-## How it's going
+## How to Upgrade Step Wise
+
+> NOTE: `rubocop-lts` is under active development, and hasn't had any releases yet.  The ruby specific versions, e.g. `rubocop-ruby2_7`, are complete already, and you can use them! Keep scrolling down for links to each of them.
+
+| Your Ruby     | Your Gemfile                         |     | required_ruby_version   | Your Gemfile.lock | Your .rubocop.yml              |
+|---------------|--------------------------------------|-----|-------------------------|-------------------|--------------------------------|
+| `1.9.x`       | `gem "rubocop-lts", "~> 1.0"`        |     | `['>= 1.9.0', '< 2']`   | [`rubocop-ruby1_9`][⛳️19-gh] | `inherit_gem: rubocop-lts.yml` |
+| ⬆️ to `2.0.x` | ⬆️ to `gem "rubocop-lts", "~> 1.1"`  |     | `['>= 1.9.0', '< 3.1']` | no change         | no change                      |
+| `2.0.x`       | ⬆️ to `gem "rubocop-lts", "~> 2.0"`  |     | `['>= 2.0.0', '< 2.1']` | [`rubocop-ruby2_0`][⛳️20-gh] | `inherit_gem: rubocop-lts.yml` |
+| ⬆️ to `2.1.x` | ⬆️ to `gem "rubocop-lts", "~> 2.1"`  |     | `['>= 2.0.0', '< 3.1']` | no change         | no change                      |
+| `2.1.x`       | ⬆️ to `gem "rubocop-lts", "~> 3.0"`  |     | `['>= 2.1.0', '< 2.2']` | [`rubocop-ruby2_1`][⛳️21-gh] | `inherit_gem: rubocop-lts.yml` |
+| ⬆️ to `2.2.x` | ⬆️ to `gem "rubocop-lts", "~> 3.1"`  |     | `['>= 2.1.0', '< 3.1']` | no change         | no change                      |
+| `2.2.x`       | ⬆️ to `gem "rubocop-lts", "~> 4.0"`  |     | `['>= 2.2.0', '< 2.3']` | [`rubocop-ruby2_2`][⛳️22-gh] | `inherit_gem: rubocop-lts.yml` |
+| ⬆️ to `2.3.x` | ⬆️ to `gem "rubocop-lts", "~> 4.1"`  |     | `['>= 2.2.0', '< 3.0']` | no change         | no change                      |
+| `2.3.x`       | ⬆️ to `gem "rubocop-lts", "~> 5.0"`  |     | `['>= 2.3.0', '< 2.4']` | [`rubocop-ruby2_3`][⛳️23-gh] | `inherit_gem: rubocop-lts.yml` |
+| ⬆️ to `2.4.x` | ⬆️ to `gem "rubocop-lts", "~> 5.1"`  |     | `['>= 2.3.0', '< 3.1']` | no change         | no change                      |
+| `2.4.x`       | ⬆️ to `gem "rubocop-lts", "~> 6.0"`  |     | `['>= 2.4.0', '< 2.5']` | [`rubocop-ruby2_4`][⛳️24-gh] | `inherit_gem: rubocop-lts.yml` |
+| ⬆️ to `2.5.x` | ⬆️ to `gem "rubocop-lts", "~> 6.1"`  |     | `['>= 2.4.0', '< 3.1']` | no change         | no change                      |
+| `2.5.x`       | ⬆️ to `gem "rubocop-lts", "~> 7.0"`  |     | `['>= 2.5.0', '< 2.6']` | [`rubocop-ruby2_5`][⛳️25-gh] | `inherit_gem: rubocop-lts.yml` |
+| ⬆️ to `2.6.x` | ⬆️ to `gem "rubocop-lts", "~> 7.1"`  |     | `['>= 2.5.0', '< 3.2']` | no change         | no change                      |
+| `2.6.x`       | ⬆️ to `gem "rubocop-lts", "~> 8.0"`  |     | `['>= 2.6.0', '< 2.7']` | [`rubocop-ruby2_6`][⛳️26-gh] | `inherit_gem: rubocop-lts.yml` |
+| ⬆️ to `2.7.x` | ⬆️ to `gem "rubocop-lts", "~> 8.1"`  |     | `['>= 2.6.0', '< 3.2']` | no change         | no change                      |
+| `2.7.x`       | ⬆️ to `gem "rubocop-lts", "~> 9.0"`  |     | `['>= 2.7.0', '< 3.0']` | [`rubocop-ruby2_7`][⛳️27-gh] | `inherit_gem: rubocop-lts.yml` |
+| ⬆️ to `3.0.x` | ⬆️ to `gem "rubocop-lts", "~> 9.1"`  |     | `['>= 2.7.0', '< 3.2']` | no change         | no change                      |
+| `3.0.x`       | ⬆️ to `gem "rubocop-lts", "~> 10.0"` |     | `['>= 3.0.0', '< 3.1']` | [`rubocop-ruby3_0`][⛳️30-gh] | `inherit_gem: rubocop-lts.yml` |
+| ⬆️ to `3.1.x` | ⬆️ to `gem "rubocop-lts", "~> 10.1"` |     | `['>= 3.0.0', '< 3.2']` | no change         | no change                      |
+| `3.1.x`       | ⬆️ to `gem "rubocop-lts", "~> 11.0"` |     | `['>= 3.1.0', '< 3.2']` | [`rubocop-ruby3_1`][⛳️31-gh] | `inherit_gem: rubocop-lts.yml` |
+| ⬆️ to `3.2.x` | ⬆️ to `gem "rubocop-lts", "~> 11.1"` |     | `['>= 3.1.0', '< 3.2']` | no change         | no change                      |
+
+## Project Health
 
 | Gem Name                     | Version                           | Downloads                                                        | CI                                                                                                 | Activity                                                                                                                                      |
 |------------------------------|-----------------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
