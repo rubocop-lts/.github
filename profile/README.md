@@ -2,7 +2,9 @@
 
 # 🙋‍♀️ How often has RuboCop broken your build?
 
-This is both good and bad.  It's supposed to break the build when it finds violations.
+This is both good (literally its job) _and_ bad (when it's for the wrong reasons).
+
+It's supposed to break the build when it finds violations.
 It should not break the build due to incompatibility with your environment.  RuboCop
 doesn't follow SemVer, and occassionally it will unexpectedly break things.
 
