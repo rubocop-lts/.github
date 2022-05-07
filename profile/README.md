@@ -16,7 +16,7 @@ contributors must adhered to.
 
 # 👩‍💻 Project Status
 
-## Tools we use to solve Gorgon's Knot
+## Tools we use to untie Gorgon's Knot
 
 | Your Ruby | Your Gemfile                   | Your Gemfile.lock |
 |-----------|--------------------------------|-------------------|
@@ -31,6 +31,235 @@ contributors must adhered to.
 | `2.7`     | `gem "rubocop-lts", "~> 9.0"`  | `rubocop-ruby2_7` |
 | `3.0`     | `gem "rubocop-lts", "~> 10.0"` | `rubocop-ruby3_0` |
 | `3.1`     | `gem "rubocop-lts", "~> 11.0"` | `rubocop-ruby3_1` |
+
+## How it's going
+
+| Gem Name          | Version                           | Downloads                                                        | CI                                                                                           | Activity                                                                                                                                      |
+|-------------------|-----------------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| `rubocop-ruby1_9` | [![Gem Version][⛳️19-vi]][⛳️19-g] | [![Total DL][🖇️19-dti]][⛳️19-g] [![DL Rank][🏘️19-rti]][⛳️19-g] | [![Current][🚎19-cwfi]][🚎19-cwf] [![Heads][🖐19-hwfi]][🖐19-hwf] [![Legacy][🧮19-lwfi]][🧮19-lwf] | [![Open Issues][📗19-ioi]][📗19-io] [![Closed Issues][🚀19-ici]][🚀19-ic] [![Open PRs][💄19-poi]][💄19-po] [![Closed PRs][👽19-pci]][👽19-pc] |
+| `rubocop-ruby2_0` | [![Gem Version][⛳️20-vi]][⛳️20-g] | [![Total DL][🖇️20-dti]][⛳️20-g] [![DL Rank][🏘️20-rti]][⛳️20-g] | [![Current][🚎️20-cwfi]][🚎️20-cwf] [![Heads][🖐️20-hwfi]][🖐️20-hwf] [![Legacy][🧮️20-lwfi]][🧮️20-lwf] | [![Open Issues][📗20-ioi]][📗20-io] [![Closed Issues][🚀20-ici]][🚀20-ic] [![Open PRs][💄20-poi]][💄20-po] [![Closed PRs][👽20-pci]][👽20-pc] |
+| `rubocop-ruby2_1` | [![Gem Version][⛳️21-vi]][⛳️21-g] | [![Total DL][🖇️21-dti]][⛳️21-g] [![DL Rank][🏘️21-rti]][⛳️21-g] | [![Current][🚎21-cwfi]][🚎21-cwf] [![Heads][🖐21-hwfi]][🖐21-hwf] [![Legacy][🧮21-lwfi]][🧮21-lwf] | [![Open Issues][📗21-ioi]][📗21-io] [![Closed Issues][🚀21-ici]][🚀21-ic] [![Open PRs][💄21-poi]][💄21-po] [![Closed PRs][👽21-pci]][👽21-pc] |
+| `rubocop-ruby2_2` | [![Gem Version][⛳️22-vi]][⛳️22-g] | [![Total DL][🖇️22-dti]][⛳️22-g] [![DL Rank][🏘️22-rti]][⛳️22-g] | [![Current][🚎22-cwfi]][🚎22-cwf] [![Heads][🖐22-hwfi]][🖐22-hwf] [![Legacy][🧮22-lwfi]][🧮22-lwf] | [![Open Issues][📗22-ioi]][📗22-io] [![Closed Issues][🚀22-ici]][🚀22-ic] [![Open PRs][💄22-poi]][💄22-po] [![Closed PRs][👽22-pci]][👽22-pc] |
+| `rubocop-ruby2_3` | [![Gem Version][⛳️23-vi]][⛳️23-g] | [![Total DL][🖇️23-dti]][⛳️23-g] [![DL Rank][🏘️23-rti]][⛳️23-g] | [![Current][🚎23-cwfi]][🚎23-cwf] [![Heads][🖐23-hwfi]][🖐23-hwf] [![Legacy][🧮23-lwfi]][🧮23-lwf] | [![Open Issues][📗23-ioi]][📗23-io] [![Closed Issues][🚀23-ici]][🚀23-ic] [![Open PRs][💄23-poi]][💄23-po] [![Closed PRs][👽23-pci]][👽23-pc] |
+| `rubocop-ruby2_4` | [![Gem Version][⛳️24-vi]][⛳️24-g] | [![Total DL][🖇️24-dti]][⛳️24-g] [![DL Rank][🏘️24-rti]][⛳️24-g] | [![Current][🚎24-cwfi]][🚎24-cwf] [![Heads][🖐24-hwfi]][🖐24-hwf] [![Legacy][🧮24-lwfi]][🧮24-lwf] | [![Open Issues][📗24-ioi]][📗24-io] [![Closed Issues][🚀24-ici]][🚀24-ic] [![Open PRs][💄24-poi]][💄24-po] [![Closed PRs][👽24-pci]][👽24-pc] |
+| `rubocop-ruby2_5` | [![Gem Version][⛳️25-vi]][⛳️25-g] | [![Total DL][🖇️25-dti]][⛳️25-g] [![DL Rank][🏘️25-rti]][⛳️25-g] | [![Current][🚎25-cwfi]][🚎25-cwf] [![Heads][🖐25-hwfi]][🖐25-hwf] [![Legacy][🧮25-lwfi]][🧮25-lwf] | [![Open Issues][📗25-ioi]][📗25-io] [![Closed Issues][🚀25-ici]][🚀25-ic] [![Open PRs][💄25-poi]][💄25-po] [![Closed PRs][👽25-pci]][👽25-pc] |
+| `rubocop-ruby2_6` | [![Gem Version][⛳️26-vi]][⛳️26-g] | [![Total DL][🖇️26-dti]][⛳️26-g] [![DL Rank][🏘️26-rti]][⛳️26-g] | [![Current][🚎19-cwfi]][🚎19-cwf] [![Heads][🖐19-hwfi]][🖐19-hwf] [![Legacy][🧮19-lwfi]][🧮19-lwf] | [![Open Issues][📗19-ioi]][📗19-io] [![Closed Issues][🚀19-ici]][🚀19-ic] [![Open PRs][💄19-poi]][💄19-po] [![Closed PRs][👽19-pci]][👽19-pc] |
+| `rubocop-ruby2_7` | [![Gem Version][⛳️27-vi]][⛳️27-g] | [![Total DL][🖇️27-dti]][⛳️27-g] [![DL Rank][🏘️27-rti]][⛳️27-g] | [![Current][🚎27-cwfi]][🚎27-cwf] [![Heads][🖐27-hwfi]][🖐27-hwf] [![Legacy][🧮27-lwfi]][🧮27-lwf] | [![Open Issues][📗27-ioi]][📗27-io] [![Closed Issues][🚀27-ici]][🚀27-ic] [![Open PRs][💄27-poi]][💄27-po] [![Closed PRs][👽27-pci]][👽27-pc] |
+| `rubocop-ruby3_0` | [![Gem Version][⛳️30-vi]][⛳️30-g] | [![Total DL][🖇️30-dti]][⛳️30-g] [![DL Rank][🏘️30-rti]][⛳️30-g] | [![Current][🚎30-cwfi]][🚎30-cwf] [![Heads][🖐30-hwfi]][🖐30-hwf] [![Legacy][🧮30-lwfi]][🧮30-lwf] | [![Open Issues][📗30-ioi]][📗30-io] [![Closed Issues][🚀30-ici]][🚀30-ic] [![Open PRs][💄30-poi]][💄30-po] [![Closed PRs][👽30-pci]][👽30-pc] |
+| `rubocop-ruby3_1` | [![Gem Version][⛳️31-vi]][⛳️31-g] | [![Total DL][🖇️31-dti]][⛳️31-g] [![DL Rank][🏘️31-rti]][⛳️31-g] | [![Current][🚎31-cwfi]][🚎31-cwf] [![Heads][🖐31-hwfi]][🖐31-hwf] [![Legacy][🧮31-lwfi]][🧮31-lwf] | [![Open Issues][📗31-ioi]][📗31-io] [![Closed Issues][🚀31-ici]][🚀31-ic] [![Open PRs][💄31-poi]][💄31-po] [![Closed PRs][👽31-pci]][👽31-pc] |
+
+<!-- columnar badge #s:
+⛳️
+🖇
+🏘
+🚎
+🖐
+🧮
+📗
+🚀
+💄
+👽
+-->
+
+[⛳️19-vi]: http://img.shields.io/gem/v/rubocop-ruby1_9.svg
+[🖇️19-dti]: https://img.shields.io/gem/dt/rubocop-ruby1_9.svg
+[🏘️19-rti]: https://img.shields.io/gem/rt/rubocop-ruby1_9.svg
+[🚎19-cwf]: https://github.com/rubocop-lts/rubocop-ruby1_9/actions/workflows/current.yml
+[🚎19-cwfi]: https://github.com/rubocop-lts/rubocop-ruby1_9/actions/workflows/supported.yml/badge.svg
+[🖐19-hwf]: https://github.com/rubocop-lts/rubocop-ruby1_9/actions/workflows/heads.yml
+[🖐19-hwfi]: https://github.com/rubocop-lts/rubocop-ruby1_9/actions/workflows/heads.yml/badge.svg
+[🧮19-lwf]: https://github.com/rubocop-lts/rubocop-ruby1_9/actions/workflows/legacy.yml
+[🧮19-lwfi]: https://github.com/rubocop-lts/rubocop-ruby1_9/actions/workflows/legacy.yml/badge.svg
+[📗19-io]: https://github.com/rubocop-lts/rubocop-ruby1_9/issues
+[📗19-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby1_9
+[🚀19-ic]: https://github.com/rubocop-lts/rubocop-ruby1_9/issues?q=is%3Aissue+is%3Aclosed
+[🚀19-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby1_9
+[💄19-po]: https://github.com/rubocop-lts/rubocop-ruby1_9/pulls
+[💄19-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby1_9
+[👽19-pc]: https://github.com/rubocop-lts/rubocop-ruby1_9/pulls?q=is%3Apr+is%3Aclosed
+[👽19-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby1_9
+[⛳️19-g]: https://rubygems.org/gems/rubocop-ruby1_9
+[⛳️20-vi]: http://img.shields.io/gem/v/rubocop-ruby2_0.svg
+[🖇️20-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_0.svg
+[🏘️20-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_0.svg
+[🚎20-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_0/actions/workflows/current.yml
+[🚎20-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_0/actions/workflows/supported.yml/badge.svg
+[🖐20-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_0/actions/workflows/heads.yml
+[🖐20-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_0/actions/workflows/heads.yml/badge.svg
+[🧮20-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_0/actions/workflows/legacy.yml
+[🧮20-lwfi]: https://github.com/rubocop-lts/rubocop-ruby2_0/actions/workflows/legacy.yml/badge.svg
+[📗20-io]: https://github.com/rubocop-lts/rubocop-ruby2_0/issues
+[📗20-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby2_0
+[🚀20-ic]: https://github.com/rubocop-lts/rubocop-ruby2_0/issues?q=is%3Aissue+is%3Aclosed
+[🚀20-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby2_0
+[💄20-po]: https://github.com/rubocop-lts/rubocop-ruby2_0/pulls
+[💄20-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby2_0
+[👽20-pc]: https://github.com/rubocop-lts/rubocop-ruby2_0/pulls?q=is%3Apr+is%3Aclosed
+[👽20-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby2_0
+[⛳️20-g]: https://rubygems.org/gems/rubocop-ruby2_0
+[⛳️21-vi]: http://img.shields.io/gem/v/rubocop-ruby2_1.svg
+[🖇️21-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_1.svg
+[🏘️21-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_1.svg
+[🚎21-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_1/actions/workflows/current.yml
+[🚎21-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_1/actions/workflows/supported.yml/badge.svg
+[🖐21-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_1/actions/workflows/heads.yml
+[🖐21-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_1/actions/workflows/heads.yml/badge.svg
+[🧮21-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_1/actions/workflows/legacy.yml
+[🧮21-lwfi]: https://github.com/rubocop-lts/rubocop-ruby2_1/actions/workflows/legacy.yml/badge.svg
+[📗21-io]: https://github.com/rubocop-lts/rubocop-ruby2_1/issues
+[📗21-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby2_1
+[🚀21-ic]: https://github.com/rubocop-lts/rubocop-ruby2_1/issues?q=is%3Aissue+is%3Aclosed
+[🚀21-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby2_1
+[💄21-po]: https://github.com/rubocop-lts/rubocop-ruby2_1/pulls
+[💄21-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby2_1
+[👽21-pc]: https://github.com/rubocop-lts/rubocop-ruby2_1/pulls?q=is%3Apr+is%3Aclosed
+[👽21-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby2_1
+[⛳️21-g]: https://rubygems.org/gems/rubocop-ruby2_1
+[⛳️22-vi]: http://img.shields.io/gem/v/rubocop-ruby2_2.svg
+[🖇️22-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_2.svg
+[🏘️22-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_2.svg
+[🚎22-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_2/actions/workflows/current.yml
+[🚎22-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_2/actions/workflows/supported.yml/badge.svg
+[🖐22-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_2/actions/workflows/heads.yml
+[🖐22-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_2/actions/workflows/heads.yml/badge.svg
+[🧮22-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_2/actions/workflows/legacy.yml
+[🧮22-lwfi]: https://github.com/rubocop-lts/rubocop-ruby2_2/actions/workflows/legacy.yml/badge.svg
+[📗22-io]: https://github.com/rubocop-lts/rubocop-ruby2_2/issues
+[📗22-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby2_2
+[🚀22-ic]: https://github.com/rubocop-lts/rubocop-ruby2_2/issues?q=is%3Aissue+is%3Aclosed
+[🚀22-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby2_2
+[💄22-po]: https://github.com/rubocop-lts/rubocop-ruby2_2/pulls
+[💄22-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby2_2
+[👽22-pc]: https://github.com/rubocop-lts/rubocop-ruby2_2/pulls?q=is%3Apr+is%3Aclosed
+[👽22-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby2_2
+[⛳️22-g]: https://rubygems.org/gems/rubocop-ruby2_2
+[⛳️23-vi]: http://img.shields.io/gem/v/rubocop-ruby2_3.svg
+[🖇️23-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_3.svg
+[🏘️23-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_3.svg
+[🚎23-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/current.yml
+[🚎23-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/supported.yml/badge.svg
+[🖐23-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/heads.yml
+[🖐23-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/heads.yml/badge.svg
+[🧮23-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/legacy.yml
+[🧮23-lwfi]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/legacy.yml/badge.svg
+[📗23-io]: https://github.com/rubocop-lts/rubocop-ruby2_3/issues
+[📗23-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby2_3
+[🚀23-ic]: https://github.com/rubocop-lts/rubocop-ruby2_3/issues?q=is%3Aissue+is%3Aclosed
+[🚀23-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby2_3
+[💄23-po]: https://github.com/rubocop-lts/rubocop-ruby2_3/pulls
+[💄23-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby2_3
+[👽23-pc]: https://github.com/rubocop-lts/rubocop-ruby2_3/pulls?q=is%3Apr+is%3Aclosed
+[👽23-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby2_3
+[⛳️23-g]: https://rubygems.org/gems/rubocop-ruby2_3
+[⛳️24-vi]: http://img.shields.io/gem/v/rubocop-ruby2_4.svg
+[🖇️24-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_4.svg
+[🏘️24-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_4.svg
+[🚎24-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_4/actions/workflows/current.yml
+[🚎24-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_4/actions/workflows/supported.yml/badge.svg
+[🖐24-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_4/actions/workflows/heads.yml
+[🖐24-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_4/actions/workflows/heads.yml/badge.svg
+[🧮24-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_4/actions/workflows/legacy.yml
+[🧮24-lwfi]: https://github.com/rubocop-lts/rubocop-ruby2_4/actions/workflows/legacy.yml/badge.svg
+[📗24-io]: https://github.com/rubocop-lts/rubocop-ruby2_4/issues
+[📗24-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby2_4
+[🚀24-ic]: https://github.com/rubocop-lts/rubocop-ruby2_4/issues?q=is%3Aissue+is%3Aclosed
+[🚀24-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby2_4
+[💄24-po]: https://github.com/rubocop-lts/rubocop-ruby2_4/pulls
+[💄24-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby2_4
+[👽24-pc]: https://github.com/rubocop-lts/rubocop-ruby2_4/pulls?q=is%3Apr+is%3Aclosed
+[👽24-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby2_4
+[⛳️24-g]: https://rubygems.org/gems/rubocop-ruby2_4
+[⛳️25-vi]: http://img.shields.io/gem/v/rubocop-ruby2_5.svg
+[🖇️25-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_5.svg
+[🏘️25-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_5.svg
+[🚎25-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_5/actions/workflows/current.yml
+[🚎25-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_5/actions/workflows/supported.yml/badge.svg
+[🖐25-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_5/actions/workflows/heads.yml
+[🖐25-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_5/actions/workflows/heads.yml/badge.svg
+[🧮25-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_5/actions/workflows/legacy.yml
+[🧮25-lwfi]: https://github.com/rubocop-lts/rubocop-ruby2_5/actions/workflows/legacy.yml/badge.svg
+[📗25-io]: https://github.com/rubocop-lts/rubocop-ruby2_5/issues
+[📗25-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby2_5
+[🚀25-ic]: https://github.com/rubocop-lts/rubocop-ruby2_5/issues?q=is%3Aissue+is%3Aclosed
+[🚀25-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby2_5
+[💄25-po]: https://github.com/rubocop-lts/rubocop-ruby2_5/pulls
+[💄25-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby2_5
+[👽25-pc]: https://github.com/rubocop-lts/rubocop-ruby2_5/pulls?q=is%3Apr+is%3Aclosed
+[👽25-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby2_5
+[⛳️25-g]: https://rubygems.org/gems/rubocop-ruby2_5
+[⛳️26-vi]: http://img.shields.io/gem/v/rubocop-ruby2_6.svg
+[🖇️26-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_6.svg
+[🏘️26-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_6.svg
+[🚎26-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_6/actions/workflows/current.yml
+[🚎26-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_6/actions/workflows/supported.yml/badge.svg
+[🖐26-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_6/actions/workflows/heads.yml
+[🖐26-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_6/actions/workflows/heads.yml/badge.svg
+[🧮26-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_6/actions/workflows/legacy.yml
+[🧮26-lwfi]: https://github.com/rubocop-lts/rubocop-ruby2_6/actions/workflows/legacy.yml/badge.svg
+[📗26-io]: https://github.com/rubocop-lts/rubocop-ruby2_6/issues
+[📗26-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby2_6
+[🚀26-ic]: https://github.com/rubocop-lts/rubocop-ruby2_6/issues?q=is%3Aissue+is%3Aclosed
+[🚀26-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby2_6
+[💄26-po]: https://github.com/rubocop-lts/rubocop-ruby2_6/pulls
+[💄26-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby2_6
+[👽26-pc]: https://github.com/rubocop-lts/rubocop-ruby2_6/pulls?q=is%3Apr+is%3Aclosed
+[👽26-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby2_6
+[⛳️26-g]: https://rubygems.org/gems/rubocop-ruby2_6
+[⛳️27-vi]: http://img.shields.io/gem/v/rubocop-ruby2_7.svg
+[🖇️27-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_7.svg
+[🏘️27-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_7.svg
+[🚎27-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/current.yml
+[🚎27-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/supported.yml/badge.svg
+[🖐27-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/heads.yml
+[🖐27-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/heads.yml/badge.svg
+[🧮27-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/legacy.yml
+[🧮27-lwfi]: https://github.com/rubocop-lts/rubocop-ruby2_7/actions/workflows/legacy.yml/badge.svg
+[📗27-io]: https://github.com/rubocop-lts/rubocop-ruby2_7/issues
+[📗27-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby2_7
+[🚀27-ic]: https://github.com/rubocop-lts/rubocop-ruby2_7/issues?q=is%3Aissue+is%3Aclosed
+[🚀27-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby2_7
+[💄27-po]: https://github.com/rubocop-lts/rubocop-ruby2_7/pulls
+[💄27-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby2_7
+[👽27-pc]: https://github.com/rubocop-lts/rubocop-ruby2_7/pulls?q=is%3Apr+is%3Aclosed
+[👽27-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby2_7
+[⛳️27-g]: https://rubygems.org/gems/rubocop-ruby2_7
+[⛳️30-vi]: http://img.shields.io/gem/v/rubocop-ruby3_0.svg
+[🖇️30-dti]: https://img.shields.io/gem/dt/rubocop-ruby3_0.svg
+[🏘️30-rti]: https://img.shields.io/gem/rt/rubocop-ruby3_0.svg
+[🚎30-cwf]: https://github.com/rubocop-lts/rubocop-ruby3_0/actions/workflows/current.yml
+[🚎30-cwfi]: https://github.com/rubocop-lts/rubocop-ruby3_0/actions/workflows/supported.yml/badge.svg
+[🖐30-hwf]: https://github.com/rubocop-lts/rubocop-ruby3_0/actions/workflows/heads.yml
+[🖐30-hwfi]: https://github.com/rubocop-lts/rubocop-ruby3_0/actions/workflows/heads.yml/badge.svg
+[🧮30-lwf]: https://github.com/rubocop-lts/rubocop-ruby3_0/actions/workflows/legacy.yml
+[🧮30-lwfi]: https://github.com/rubocop-lts/rubocop-ruby3_0/actions/workflows/legacy.yml/badge.svg
+[📗30-io]: https://github.com/rubocop-lts/rubocop-ruby3_0/issues
+[📗30-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby3_0
+[🚀30-ic]: https://github.com/rubocop-lts/rubocop-ruby3_0/issues?q=is%3Aissue+is%3Aclosed
+[🚀30-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby3_0
+[💄30-po]: https://github.com/rubocop-lts/rubocop-ruby3_0/pulls
+[💄30-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby3_0
+[👽30-pc]: https://github.com/rubocop-lts/rubocop-ruby3_0/pulls?q=is%3Apr+is%3Aclosed
+[👽30-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby3_0
+[⛳️30-g]: https://rubygems.org/gems/rubocop-ruby3_0
+[⛳️31-vi]: http://img.shields.io/gem/v/rubocop-ruby3_1.svg
+[🖇️31-dti]: https://img.shields.io/gem/dt/rubocop-ruby3_1.svg
+[🏘️31-rti]: https://img.shields.io/gem/rt/rubocop-ruby3_1.svg
+[🚎31-cwf]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/current.yml
+[🚎31-cwfi]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/supported.yml/badge.svg
+[🖐31-hwf]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/heads.yml
+[🖐31-hwfi]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/heads.yml/badge.svg
+[🧮31-lwf]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/legacy.yml
+[🧮31-lwfi]: https://github.com/rubocop-lts/rubocop-ruby3_1/actions/workflows/legacy.yml/badge.svg
+[📗31-io]: https://github.com/rubocop-lts/rubocop-ruby3_1/issues
+[📗31-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby3_1
+[🚀31-ic]: https://github.com/rubocop-lts/rubocop-ruby3_1/issues?q=is%3Aissue+is%3Aclosed
+[🚀31-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby3_1
+[💄31-po]: https://github.com/rubocop-lts/rubocop-ruby3_1/pulls
+[💄31-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby3_1
+[👽31-pc]: https://github.com/rubocop-lts/rubocop-ruby3_1/pulls?q=is%3Apr+is%3Aclosed
+[👽31-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby3_1
+[⛳️31-g]: https://rubygems.org/gems/rubocop-ruby3_1
+
 
 🍿 Fun facts
 
