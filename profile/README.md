@@ -8,15 +8,9 @@ It's supposed to break the build when it finds violations.
 It should not break the build due to incompatibility with your environment.  RuboCop
 doesn't follow SemVer, and occasionally it will unexpectedly break things.
 
-# 🌈 Contribution guidelines
+## 🗿 Stable
 
-Each repository has a `CONTRIBUTING.md` document, as well as a section of the `README.md`
-dedicated to development.  In addition each repository has a `CODE_OF_CONDUCT.md`, which
-contributors must adhered to.
-
-# 👩‍💻 Project Status
-
-## Tools we use to untie Gorgon's Knot
+All releases are stable releases. The major version you need depends on the version of minimum supported version of Ruby version for your project.
 
 | Your Ruby | Your Gemfile                   | Your Gemfile.lock | Your .rubocop.yml              |
 |-----------|--------------------------------|-------------------|--------------------------------|
@@ -32,7 +26,16 @@ contributors must adhered to.
 | `3.0.x`   | `gem "rubocop-lts", "~> 10.0"` | `rubocop-ruby3_0` | `inherit_gem: rubocop-lts.yml` |
 | `3.1.x`   | `gem "rubocop-lts", "~> 11.0"` | `rubocop-ruby3_1` | `inherit_gem: rubocop-lts.yml` |
 
-## How to Upgrade Step Wise
+
+# 🌈 Contribution guidelines
+
+Each repository has a `CONTRIBUTING.md` document, as well as a section of the `README.md`
+dedicated to development.  In addition each repository has a `CODE_OF_CONDUCT.md`, which
+contributors must adhered to.
+
+# 👩‍💻 Project Status
+
+## How To Untie Gorgon's Knot
 
 > NOTE: Look [here][what1_8] if you have a library still supporting Ruby 1.8.7, or are looking to drop support for Ruby 1.8.7 following SemVer.
 
