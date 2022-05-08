@@ -70,7 +70,7 @@ Have a library still supporting Ruby 1.8.7, or looking to drop support for Ruby 
 Simply use
 ```yaml
 inherit_gem:
-  rubocop-lts: rubocop-lts.yml
+  rubocop-lts: rubocop-lts1_8.yml
 ```
 
 > NOTE: For more on how Ruby 1.8 support works, look [here][what1_8] 
