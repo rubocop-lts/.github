@@ -6,7 +6,7 @@ This is both good (literally its job) _and_ bad (when it's for the wrong reasons
 
 It's supposed to break the build when it finds violations.
 It should not break the build due to incompatibility with your environment.  RuboCop
-doesn't follow SemVer, and occassionally it will unexpectedly break things.
+doesn't follow SemVer, and occasionally it will unexpectedly break things.
 
 # 🌈 Contribution guidelines
 
