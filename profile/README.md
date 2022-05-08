@@ -37,10 +37,6 @@ contributors must adhered to.
 
 ## How To Untie Gorgon's Knot
 
-> NOTE: Look [here][what1_8] if you have a library still supporting Ruby 1.8.7, or are looking to drop support for Ruby 1.8.7 following SemVer.
-
-[what1_8]: https://github.com/rubocop-lts/rubocop-ruby1_9#what-about-ruby-18
-
 > NOTE: `rubocop-lts` is under active development, and hasn't had any releases yet.  The ruby specific versions, e.g. `rubocop-ruby2_7`, are complete already, and you can use them! Keep scrolling down for links to each of them.
 
 | Your Ruby     | Your Gemfile                         |     | required_ruby_version   | Your Gemfile.lock            | Your .rubocop.yml              |
@@ -67,6 +63,16 @@ contributors must adhered to.
 | ⬆️ to `3.1.x` | ⬆️ to `gem "rubocop-lts", "~> 10.1"` |     | `['>= 3.0.0', '< 3.2']` | no change                    | no change                      |
 | no change     | ⬆️ to `gem "rubocop-lts", "~> 11.0"` |     | `['>= 3.1.0', '< 3.2']` | [`rubocop-ruby3_1`][⛳️31-gh] | no change                      |
 | ⬆️ to `3.2.x` | ⬆️ to `gem "rubocop-lts", "~> 11.1"` |     | `['>= 3.1.0', '< 3.2']` | no change                    | no change                      |
+
+### Supporting Ruby 1.8.7?
+
+Have a library still supporting Ruby 1.8.7, or looking to drop support for Ruby 1.8.7 in a SemVer-compliant manner?
+
+Simply use `inherit_gem: rubocop-lts1_8.yml` instead of `inherit_gem: rubocop-lts.yml`!
+
+> NOTE: For more on how Ruby 1.8 support works, look [here][what1_8] 
+
+[what1_8]: https://github.com/rubocop-lts/rubocop-ruby1_9#what-about-ruby-18
 
 ## Project Health
 
