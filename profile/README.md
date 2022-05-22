@@ -300,7 +300,7 @@ Source: [Unsplash][org-logo-source]
 License: [Unsplash License][org-logo-license]
 </details>
 
-[project-logos]: https://github.com/rubocop-lts/rubocop-ruby3_1/blob/main/docs/images/logo/README.txt
+[project-logos]: https://github.com/rubocop-lts/rubocop-lts/blob/main/docs/images/logo/README.txt
 [org-logo-author]: https://unsplash.com/@yusufevli
 [org-logo-source]: https://unsplash.com/photos/yaSLNLtKRIU
 [org-logo-license]: https://unsplash.com/license
@@ -311,7 +311,7 @@ License: [Unsplash License][org-logo-license]
 
 ## 🤝 Code of Conduct
 
-Everyone interacting in the Rubocop::Ruby19 project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/rubocop-lts/rubocop-lts/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the Rubocop LTS codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/rubocop-lts/rubocop-lts/blob/main/CODE_OF_CONDUCT.md).
 
 ## 📌 Versioning
 
