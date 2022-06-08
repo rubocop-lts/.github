@@ -18,160 +18,37 @@
 
 # RuboCop LTS
 
-## 🙋‍♀️ How often has RuboCop broken your build?
+## Table of Contents
 
-This is both good (literally its job) _and_ bad (when it's for the wrong reasons).
+| **DEEP LINKS**
+|🌱 [Why Build This?][Why-Build-This]
+|🌱 [Convention > Configuration][Convention-Over-Configuration]
+--⊕🌱 [Even Releases][Even-Major-Release]
+--⊕🌱 [Odd Releases][Odd-Major-Release]
+|🌱 [How to Upgrade Ruby (1.8 to 3.2)!][How-To-Upgrade-Ruby]
+| **THIS README**
+|👩‍💻 [Org Health](#👩‍💻-project-health])
+|✨ [Installation](#✨-installation)
+|🔧 [Usage](#🔧-usage)
+|🏗️ [Development](#🏗️-development)
+--⊕⚡️ [Contributing](#⚡️-contributing)
+--⊕🌈 [Contributors](#🌈-contributors)
+|📄 [License](#📄-license)
+|⊕© [Copyright](#©-copyright)
+|🤝 [Code of Conduct](#🤝-code-of-conduct)
+|📌 [Versioning](#📌-versioning)
 
-It's supposed to break the build when it finds violations.
-It should not break the build due to incompatibility with your environment.  RuboCop
-doesn't [follow SemVer](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj), and occasionally it will unexpectedly break things.
+[Why-Build-This]: https://github.com/rubocop-lts/.github/blob/main/profile/WHY_BUILD_THIS.md
+[Convention-Over-Configuration]: https://github.com/rubocop-lts/.github/blob/main/profile/CONV_OVER_CONF.md
+[Even-Major-Release]: https://github.com/rubocop-lts/.github/blob/main/profile/CONV_OVER_CONF.md#even-major-release
+[Odd-Major-Release]: https://github.com/rubocop-lts/.github/blob/main/profile/CONV_OVER_CONF.md#odd-major-release
+[How-To-Upgrade-Ruby]: https://github.com/rubocop-lts/.github/blob/main/profile/HOW_TO_UPGRADE_RUBY.md
 
-## 🗿 Stable
-
-All releases are stable releases. The major version you need depends on the supported version(s) of Ruby for your project.
-
-Projects that support a single version of Ruby (like many closed-source applications) will use the [Odd releases][even-release].
-
-Projects that support multiple versions of Ruby simultaneously (like many open-source applications and libraries) will use the [Even releases][even-release].
-
-[odd-release]: https://github.com/rubocop-lts/rubocop-lts#odd-major-release
-[even-release]: https://github.com/rubocop-lts/rubocop-lts#even-major-release
-
-## Version Conventions
-
-### Odd Major Release
-
-Versions like:
-```ruby
-"1.0.0"
-"3.0.0"
-"5.0.0"
-# ... etc
-```
-Locked to a single minor version of Ruby, e.g. version 15.0 has a `required_ruby_version` of `['>= 2.6.0', '< 2.7']`, which will install only on `2.6.x` versions of Ruby.
-
-#### Implementation
-
-Intended for applications and libraries that only lint against a single Ruby version.
-
-Odd versions should be attached to a project's trunk (e.g. the main branch), for long-term stability (ahem, _lts_, anyone?) of the style rules.
-
-| Your Ruby                         | Your Gemfile                   | Your Gemfile.lock | Your .rubocop.yml                              |
-|-----------------------------------|--------------------------------|-------------------|------------------------------------------------|
-| `1.9.x` (`['>= 1.9.0', '< 2']`)   | `gem "rubocop-lts", "~> 1.0"`  | `rubocop-ruby1_9` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.0.x` (`['>= 2.0.0', '< 2.1']`) | `gem "rubocop-lts", "~> 3.0"`  | `rubocop-ruby2_0` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.1.x` (`['>= 2.1.0', '< 2.2']`) | `gem "rubocop-lts", "~> 5.0"`  | `rubocop-ruby2_1` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.2.x` (`['>= 2.2.0', '< 2.3']`) | `gem "rubocop-lts", "~> 7.0"`  | `rubocop-ruby2_2` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.3.x` (`['>= 2.3.0', '< 2.4']`) | `gem "rubocop-lts", "~> 9.0"`  | `rubocop-ruby2_3` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.4.x` (`['>= 2.4.0', '< 2.5']`) | `gem "rubocop-lts", "~> 11.0"` | `rubocop-ruby2_4` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.5.x` (`['>= 2.5.0', '< 2.6']`) | `gem "rubocop-lts", "~> 13.0"` | `rubocop-ruby2_5` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.6.x` (`['>= 2.6.0', '< 2.7']`) | `gem "rubocop-lts", "~> 15.0"` | `rubocop-ruby2_6` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.7.x` (`['>= 2.7.0', '< 3.0']`) | `gem "rubocop-lts", "~> 17.0"` | `rubocop-ruby2_7` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `3.0.x` (`['>= 3.0.0', '< 3.1']`) | `gem "rubocop-lts", "~> 19.0"` | `rubocop-ruby3_0` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `3.1.x` (`['>= 3.1.0', '< 3.2']`) | `gem "rubocop-lts", "~> 21.0"` | `rubocop-ruby3_1` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-
-### Even Major Release
-
-Versions like:
-```ruby
-"2.0.0"
-"4.0.0"
-"6.0.0"
-# ... etc
-```
-Locked to the forward range of Rubies on which the gem can be installed (though rubocop may not execute on all),
-e.g. version 16.0 has a `required_ruby_version` of `['>= 2.6.0', '< 3.2']` will install on any released version
-of ruby from `2.6` on.
-
-#### Implementation
-
-Intended for applications and libraries that lint against a range of Ruby versions.
-
-Even versions will help projects upgrade to newer Rubies while keeping the same underlying version of RuboCop version, so change can be introduced one step at a time.
-
-| Minimum Ruby                      | Your Gemfile                   | Your Gemfile.lock | Your .rubocop.yml                              |
-|-----------------------------------|--------------------------------|-------------------|------------------------------------------------|
-| `1.9.x` (`['>= 1.9.0', '< 3.2']`) | `gem "rubocop-lts", "~> 2.0"`  | `rubocop-ruby1_9` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.0.x` (`['>= 2.0.0', '< 3.2']`) | `gem "rubocop-lts", "~> 4.0"`  | `rubocop-ruby2_0` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.1.x` (`['>= 2.1.0', '< 3.2']`) | `gem "rubocop-lts", "~> 6.0"`  | `rubocop-ruby2_1` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.2.x` (`['>= 2.2.0', '< 3.2']`) | `gem "rubocop-lts", "~> 8.0"`  | `rubocop-ruby2_2` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.3.x` (`['>= 2.3.0', '< 3.2']`) | `gem "rubocop-lts", "~> 10.0"` | `rubocop-ruby2_3` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.4.x` (`['>= 2.4.0', '< 3.2']`) | `gem "rubocop-lts", "~> 12.0"` | `rubocop-ruby2_4` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.5.x` (`['>= 2.5.0', '< 3.2']`) | `gem "rubocop-lts", "~> 14.0"` | `rubocop-ruby2_5` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.6.x` (`['>= 2.6.0', '< 3.2']`) | `gem "rubocop-lts", "~> 16.0"` | `rubocop-ruby2_6` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `2.7.x` (`['>= 2.7.0', '< 3.2']`) | `gem "rubocop-lts", "~> 18.0"` | `rubocop-ruby2_7` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `3.0.x` (`['>= 3.0.0', '< 3.2']`) | `gem "rubocop-lts", "~> 20.0"` | `rubocop-ruby3_0` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| `3.1.x` (`['>= 3.1.0', '< 3.2']`) | `gem "rubocop-lts", "~> 22.0"` | `rubocop-ruby3_1` | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-
-### All together now!
-
-Upgrading a single step from odd to even will allow upgrading Ruby.
-
-Upgrading a single step from even to odd will keep the same version of Ruby, and instead upgrade to the next RuboCop milestone.
-
-Each major version will have a tracking branch named accordingly, [for development](https://github.com/rubocop-lts/rubocop-lts#git-branch-names).
-
-### 🪢 How To Untie Gorgon's Knot
-
-> NOTE: The ruby specific versions, e.g. `rubocop-ruby2_7`, can be used if you won't be upgrading ruby. Keep scrolling down for links to each of them.
-
-How to upgrade a project from yesterday, to today.
-
-1. Have good code coverage.
-2. Upgrade one step at a time.
-3. Re-run `bundle exec rubocop -a` in between each step.
-4. Re-run `bundle exec rubocop --auto-gen-config` in between each step.
-5. Commit and push to CI in between each step.
-
-| Your Ruby     | Your Gemfile                         | required_ruby_version   | Your Gemfile.lock            | Your .rubocop.yml                              |
-|---------------|--------------------------------------|-------------------------|------------------------------|------------------------------------------------|
-| `1.9.x`       | `gem "rubocop-lts", "~> 1.0"`        | `['>= 1.9.0', '< 2']`   | [`rubocop-ruby1_9`][⛳️19-gh] | `inherit_gem:\n  rubocop-lts: rubocop-lts.yml` |
-| ⬆️ to `2.0.x` | ⬆️ to `gem "rubocop-lts", "~> 2.0"`  | `['>= 1.9.0', '< 3.2']` | no change                    | no change                                      |
-| no change     | ⬆️ to `gem "rubocop-lts", "~> 3.0"`  | `['>= 2.0.0', '< 2.1']` | [`rubocop-ruby2_0`][⛳️20-gh] | no change                                      |
-| ⬆️ to `2.1.x` | ⬆️ to `gem "rubocop-lts", "~> 4.0"`  | `['>= 2.0.0', '< 3.2']` | no change                    | no change                                      |
-| no change     | ⬆️ to `gem "rubocop-lts", "~> 5.0"`  | `['>= 2.1.0', '< 2.2']` | [`rubocop-ruby2_1`][⛳️21-gh] | no change                                      |
-| ⬆️ to `2.2.x` | ⬆️ to `gem "rubocop-lts", "~> 6.0"`  | `['>= 2.1.0', '< 3.2']` | no change                    | no change                                      |
-| no change     | ⬆️ to `gem "rubocop-lts", "~> 7.0"`  | `['>= 2.2.0', '< 2.3']` | [`rubocop-ruby2_2`][⛳️22-gh] | no change                                      |
-| ⬆️ to `2.3.x` | ⬆️ to `gem "rubocop-lts", "~> 8.0"`  | `['>= 2.2.0', '< 3.2']` | no change                    | no change                                      |
-| no change     | ⬆️ to `gem "rubocop-lts", "~> 9.0"`  | `['>= 2.3.0', '< 2.4']` | [`rubocop-ruby2_3`][⛳️23-gh] | no change                                      |
-| ⬆️ to `2.4.x` | ⬆️ to `gem "rubocop-lts", "~> 10.0"` | `['>= 2.3.0', '< 3.2']` | no change                    | no change                                      |
-| no change     | ⬆️ to `gem "rubocop-lts", "~> 11.0"` | `['>= 2.4.0', '< 2.5']` | [`rubocop-ruby2_4`][⛳️24-gh] | no change                                      |
-| ⬆️ to `2.5.x` | ⬆️ to `gem "rubocop-lts", "~> 12.0"` | `['>= 2.4.0', '< 3.2']` | no change                    | no change                                      |
-| no change     | ⬆️ to `gem "rubocop-lts", "~> 13.0"` | `['>= 2.5.0', '< 2.6']` | [`rubocop-ruby2_5`][⛳️25-gh] | no change                                      |
-| ⬆️ to `2.6.x` | ⬆️ to `gem "rubocop-lts", "~> 14.0"` | `['>= 2.5.0', '< 3.2']` | no change                    | no change                                      |
-| no change     | ⬆️ to `gem "rubocop-lts", "~> 15.0"` | `['>= 2.6.0', '< 2.7']` | [`rubocop-ruby2_6`][⛳️26-gh] | no change                                      |
-| ⬆️ to `2.7.x` | ⬆️ to `gem "rubocop-lts", "~> 16.0"` | `['>= 2.6.0', '< 3.2']` | no change                    | no change                                      |
-| no change     | ⬆️ to `gem "rubocop-lts", "~> 17.0"` | `['>= 2.7.0', '< 3.0']` | [`rubocop-ruby2_7`][⛳️27-gh] | no change                                      |
-| ⬆️ to `3.0.x` | ⬆️ to `gem "rubocop-lts", "~> 18.0"` | `['>= 2.7.0', '< 3.2']` | no change                    | no change                                      |
-| no change     | ⬆️ to `gem "rubocop-lts", "~> 19.0"` | `['>= 3.0.0', '< 3.1']` | [`rubocop-ruby3_0`][⛳️30-gh] | no change                                      |
-| ⬆️ to `3.1.x` | ⬆️ to `gem "rubocop-lts", "~> 20.0"` | `['>= 3.0.0', '< 3.2']` | no change                    | no change                                      |
-| no change     | ⬆️ to `gem "rubocop-lts", "~> 21.0"` | `['>= 3.1.0', '< 3.2']` | [`rubocop-ruby3_1`][⛳️31-gh] | no change                                      |
-| ⬆️ to `3.2.x` | ⬆️ to `gem "rubocop-lts", "~> 22.0"` | `['>= 3.1.0', '< 3.X']` | no change                    | no change                                      |
-
-> NOTE: `required_ruby_version` means the gem will install on a version of Ruby within the range.
-> Versions of this gem intended for ancient Rubies may not execute on more modern Rubies, _despite installing_.
-> As such you might consider limiting linting to only a single version of Ruby, the oldest one supported.
-> Speaking of old rubies... 👇
-
-### 📼 Supporting Ruby 1.8
-
-Have a library still supporting Ruby 1.8.7, or looking to drop support for Ruby 1.8.7 in a SemVer-compliant manner?
-
-Simply use `rubocop-lts`, version 1.x or 2.x, which support Ruby 1.9.3 for installation, and 1.8.7 for syntax.
-```yaml
-inherit_gem:
-  rubocop-lts: rubocop-lts1_8.yml
-```
-
-> NOTE: For more on how Ruby 1.8 support works, look [here][what1_8]
-
-[what1_8]: https://github.com/rubocop-lts/rubocop-ruby1_9#what-about-ruby-18
-
-## 👩‍💻 Project Health
+## 👩‍💻 Org Health
 
 | Gem Name                     | Version                             | Downloads                                                            | CI                                                                                                 | Activity                                                                                                                                              |
 |------------------------------|-------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`rubocop-lts`][⛳️lts-gh]    | [![Gem Version][⛳️lts-vi]][⛳️lts-g] | [![Total DL][🖇️lts-dti]][⛳️lts-g] [![DL Rank][🏘️lts-rti]][⛳️lts-g] | [![Current][🚎lts-cwfi]][🚎lts-cwf]                                                                | [![Open Issues][📗lts-ioi]][📗lts-io] [![Closed Issues][🚀lts-ici]][🚀lts-ic] [![Open PRs][💄lts-poi]][💄lts-po] [![Closed PRs][👽lts-pci]][👽lts-pc] |
+| [`rubocop-lts`][⛳️lts-gh]    | [![Gem Version][⛳️lts-vi]][⛳️lts-g] | [![Total DL][🖇️lts-dti]][⛳️lts-g] [![DL Rank][🏘️lts-rti]][⛳️lts-g] | Main: [![Current][🚎lts-cwfi]][🚎lts-cwf]<br>v1, ruby1.9, Odd 🔒️: [![1.9 odd][🚎lts-1_9o-cwfi]][🚎lts-1_9o-cwf]<br>v2, ruby1.9, Even ☂️: [![1.9 even][🚎lts-1_9e-cwfi]][🚎lts-1_9e-cwf]<br>v3, ruby2.0, Odd 🔒️: [![2.0 odd][🚎lts-2_0o-cwfi]][🚎lts-2_0o-cwf]<br>v4, ruby2.0, Even ☂️: [![2.0 even][🚎lts-2_0e-cwfi]][🚎lts-2_0e-cwf]<br>v5, ruby2.1, Odd 🔒️: [![2.1 odd][🚎lts-2_1o-cwfi]][🚎lts-2_1o-cwf]<br>v6, ruby2.1, Even ☂️: [![2.1 even][🚎lts-2_1e-cwfi]][🚎lts-2_1e-cwf]<br>v7, ruby2.2, Odd 🔒️: [![2.2 odd][🚎lts-2_2o-cwfi]][🚎lts-2_2o-cwf]<br>v8, ruby2.2, Even ☂️: [![2.2 even][🚎lts-2_2e-cwfi]][🚎lts-2_2e-cwf]<br>v9 ruby2.3, Odd 🔒️: [![2.3 odd][🚎lts-2_3o-cwfi]][🚎lts-2_3o-cwf]<br>v10, ruby2.3, Even ☂️: [![2.3 even][🚎lts-2_3e-cwfi]][🚎lts-2_3e-cwf]<br>v11, ruby2.4, Odd 🔒️: [![2.4 odd][🚎lts-2_4o-cwfi]][🚎lts-2_4o-cwf]<br>v12, ruby2.4, Even ☂️: [![2.4 even][🚎lts-2_4e-cwfi]][🚎lts-2_4e-cwf]<br>v13, ruby2.5, Odd 🔒️: [![2.5 odd][🚎lts-2_5o-cwfi]][🚎lts-2_5o-cwf]<br>v14, ruby2.5, Even ☂️: [![2.5 even][🚎lts-2_5e-cwfi]][🚎lts-2_5e-cwf]<br>v15, ruby2.6, Odd 🔒️: [![2.6 odd][🚎lts-2_6o-cwfi]][🚎lts-2_6o-cwf]<br>v16, ruby2.6, Even ☂️: [![2.6 even][🚎lts-2_6e-cwfi]][🚎lts-2_6e-cwf]<br>v17, ruby2.7, Odd 🔒️: [![2.7 odd][🚎lts-2_7o-cwfi]][🚎lts-2_7o-cwf]<br>v18, ruby2.7, Even ☂️: [![2.7 even][🚎lts-2_7e-cwfi]][🚎lts-2_7e-cwf]<br>v19, ruby3.0, Odd 🔒️: [![3.0 odd][🚎lts-3_0o-cwfi]][🚎lts-3_0o-cwf]<br>v20, ruby3.0, Even ☂️: [![3.0 even][🚎lts-3_0e-cwfi]][🚎lts-3_0e-cwf]<br>v21, ruby3.1, Odd 🔒️: [![3.1 odd][🚎lts-3_1o-cwfi]][🚎lts-3_1o-cwf]<br>v22, ruby3.1, Even ☂️: [![3.1 even][🚎lts-3_1e-cwfi]][🚎lts-3_1e-cwf]                                                                | [![Open Issues][📗lts-ioi]][📗lts-io] [![Closed Issues][🚀lts-ici]][🚀lts-ic] [![Open PRs][💄lts-poi]][💄lts-po] [![Closed PRs][👽lts-pci]][👽lts-pc] |
 | [`rubocop-ruby1_9`][⛳️19-gh] | [![Gem Version][⛳️19-vi]][⛳️19-g]   | [![Total DL][🖇️19-dti]][⛳️19-g] [![DL Rank][🏘️19-rti]][⛳️19-g]     | [![Current][🚎19-cwfi]][🚎19-cwf] [![Legacy][🧮19-lwfi]][🧮19-lwf]                                 | [![Open Issues][📗19-ioi]][📗19-io] [![Closed Issues][🚀19-ici]][🚀19-ic] [![Open PRs][💄19-poi]][💄19-po] [![Closed PRs][👽19-pci]][👽19-pc]         |
 | [`rubocop-ruby2_0`][⛳️20-gh] | [![Gem Version][⛳️20-vi]][⛳️20-g]   | [![Total DL][🖇️20-dti]][⛳️20-g] [![DL Rank][🏘️20-rti]][⛳️20-g]     | [![Current][🚎20-cwfi]][🚎20-cwf] [![Legacy][🧮20-lwfi]][🧮20-lwf]                                 | [![Open Issues][📗20-ioi]][📗20-io] [![Closed Issues][🚀20-ici]][🚀20-ic] [![Open PRs][💄20-poi]][💄20-po] [![Closed PRs][👽20-pci]][👽20-pc]         |
 | [`rubocop-ruby2_1`][⛳️21-gh] | [![Gem Version][⛳️21-vi]][⛳️21-g]   | [![Total DL][🖇️21-dti]][⛳️21-g] [![DL Rank][🏘️21-rti]][⛳️21-g]     | [![Current][🚎21-cwfi]][🚎21-cwf] [![Legacy][🧮21-lwfi]][🧮21-lwf]                                 | [![Open Issues][📗21-ioi]][📗21-io] [![Closed Issues][🚀21-ici]][🚀21-ic] [![Open PRs][💄21-poi]][💄21-po] [![Closed PRs][👽21-pci]][👽21-pc]         |
@@ -213,7 +90,7 @@ inherit_gem:
   - rubocop-lts.yml
 ```
 
-## Development
+## 🏗️ Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
@@ -263,11 +140,11 @@ Odd versions use the token `odd` in the branch name.
 
 [lts1_8]: https://github.com/rubocop-lts/rubocop-lts#supporting-ruby-18
 
-## ⚡️ Contributing
+### ⚡️ Contributing
 
 See [CONTRIBUTING.md][contributing]
 
-## 🌈 Contributors
+### 🌈 Contributors
 
 [![Contributors](https://contrib.rocks/image?repo=rubocop-lts/rubocop-lts)]("https://github.com/rubocop-lts/rubocop-lts/graphs/contributors")
 
@@ -342,6 +219,50 @@ spec.add_dependency "rubocop-lts", "~> X.0"
 [🏘️lts-rti]: https://img.shields.io/gem/rt/rubocop-lts.svg
 [🚎lts-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml
 [🚎lts-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg
+[🚎lts-1_9o-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar1_9-odd-v1
+[🚎lts-1_9o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r1_9-odd-v1
+[🚎lts-1_9e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar1_9-even-v2
+[🚎lts-1_9e-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r1_9-even-v2
+[🚎lts-2_0o-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_0-odd-v3
+[🚎lts-2_0o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_0-odd-v3
+[🚎lts-2_0e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_0-even-v4
+[🚎lts-2_0e-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_0-even-v4
+[🚎lts-2_1o-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_1-odd-v5
+[🚎lts-2_1o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_1-odd-v5
+[🚎lts-2_1e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_1-even-v6
+[🚎lts-2_1e-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_1-even-v6
+[🚎lts-2_2o-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_2-odd-v7
+[🚎lts-2_2o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_2-odd-v7
+[🚎lts-2_2e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_2-even-v8
+[🚎lts-2_2e-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_2-even-v8
+[🚎lts-2_3o-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_3-odd-v9
+[🚎lts-2_3o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_3-odd-v9
+[🚎lts-2_3e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_3-even-v10
+[🚎lts-2_3e-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_3-even-v10
+[🚎lts-2_4o-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_4-odd-v11
+[🚎lts-2_4o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_4-odd-v11
+[🚎lts-2_4e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_4-even-v12
+[🚎lts-2_4e-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_4-even-v12
+[🚎lts-2_5o-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_5-odd-v13
+[🚎lts-2_5o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_5-odd-v13
+[🚎lts-2_5e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_5-even-v14
+[🚎lts-2_5e-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_5-even-v14
+[🚎lts-2_6o-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml?query=branch%3Ar2_6-odd-v15
+[🚎lts-2_6o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg?branch=r2_6-odd-v15
+[🚎lts-2_6e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml?query=branch%3Ar2_6-even-v16
+[🚎lts-2_6e-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg?branch=r2_6-even-v16
+[🚎lts-2_7o-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml?query=branch%3Ar2_7-odd-v17
+[🚎lts-2_7o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg?branch=r2_7-odd-v17
+[🚎lts-2_7e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml?query=branch%3Ar2_7-even-v18
+[🚎lts-2_7e-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg?branch=r2_7-even-v18
+[🚎lts-3_0o-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml?query=branch%3Ar3_0-odd-v19
+[🚎lts-3_0o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg?branch=r3_0-odd-v19
+[🚎lts-3_0e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml?query=branch%3Ar3_0-even-v20
+[🚎lts-3_0e-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg?branch=r3_0-even-v20
+[🚎lts-3_1o-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml?query=branch%3Ar3_1-odd-v21
+[🚎lts-3_1o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg?branch=r3_1-odd-v21
+[🚎lts-3_1e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml?query=branch%3Ar3_1-even-v22
+[🚎lts-3_1e-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg?branch=r3_1-even-v22
 [🖐lts-hwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/heads.yml
 [🖐lts-hwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/heads.yml/badge.svg
 [🧮lts-lwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml
