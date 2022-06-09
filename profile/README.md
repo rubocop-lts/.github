@@ -247,10 +247,10 @@ spec.add_dependency "rubocop-lts", "~> X.0"
 [🚎lts-2_5o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_5-odd-v13
 [🚎lts-2_5e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_5-even-v14
 [🚎lts-2_5e-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_5-even-v14
-[🚎lts-2_6o-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml?query=branch%3Ar2_6-odd-v15
-[🚎lts-2_6o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg?branch=r2_6-odd-v15
-[🚎lts-2_6e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml?query=branch%3Ar2_6-even-v16
-[🚎lts-2_6e-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg?branch=r2_6-even-v16
+[🚎lts-2_6o-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_6-odd-v15
+[🚎lts-2_6o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_6-odd-v15
+[🚎lts-2_6e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml?query=branch%3Ar2_6-even-v16
+[🚎lts-2_6e-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg?branch=r2_6-even-v16
 [🚎lts-2_7o-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml?query=branch%3Ar2_7-odd-v17
 [🚎lts-2_7o-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg?branch=r2_7-odd-v17
 [🚎lts-2_7e-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml?query=branch%3Ar2_7-even-v18
