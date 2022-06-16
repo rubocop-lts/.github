@@ -87,8 +87,27 @@ Add to the top of your project's `.rubocop.yml` configuration file:
 
 ```yaml
 inherit_gem:
-  - rubocop-lts.yml
+  rubocop-lts: rubocop-lts.yml
 ```
+
+<details>
+  <summary>📼 Supporting Ruby 1.8</summary>
+Have a library still supporting Ruby 1.8.7, or looking to drop support for Ruby 1.8.7 in a SemVer-compliant manner?
+
+1. Use `rubocop-lts`, version 1.x or 2.x
+2. Add the following to your project's `.rubocop.yml`:
+
+```yaml
+inherit_gem:
+  rubocop-lts: rubocop-lts1_8.yml
+```
+
+Ruby 1.9.3 is supported for installation, and 1.8.7 for syntax.
+
+> NOTE: For more on how Ruby 1.8 support works, look [here][what1_8]
+
+[what1_8]: https://github.com/rubocop-lts/rubocop-ruby1_9#what-about-ruby-18
+</details>
 
 ## 🏗️ Development
 
