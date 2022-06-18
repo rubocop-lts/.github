@@ -20,23 +20,26 @@
 
 ## Table of Contents
 
-| **DEEP LINKS**
-|🌱 [Why Build This?][Why-Build-This]
-|🌱 [Convention > Configuration][Convention-Over-Configuration]
---⊕🌱 [Even Releases][Even-Major-Release]
---⊕🌱 [Odd Releases][Odd-Major-Release]
-|🌱 [How to Upgrade Ruby (1.8 to 3.2)!][How-To-Upgrade-Ruby]
-| **THIS README**
-|👩‍💻 [Org Health](#org-health-)
-|✨ [Installation](#installation-)
-|🔧 [Usage](#usage-)
-|🧮 [Development](#development-)
---⊕⚡️ [Contributing](#contributing-)
---⊕🌈 [Contributors](#contributors-)
-|📄 [License](#license-)
-|⊕© [Copyright](#copyright-)
-|🤝 [Code of Conduct](#code-of-conduct-)
-|📌 [Versioning](#versioning-)
+**DEEP LINKS**
+
+* 🌱 [Why Build This?][Why-Build-This]
+* 🌱 [Convention > Configuration][Convention-Over-Configuration]
+    * 🌱 [Even Releases][Even-Major-Release]
+    * 🌱 [Odd Releases][Odd-Major-Release]
+* 🌱 [How to Upgrade Ruby (1.8 to 3.2)!][How-To-Upgrade-Ruby]
+
+**THIS README**
+
+* 👩‍💻 [Org Health](#org-health-)
+* ✨ [Installation](#installation-)
+* 🔧 [Usage](#usage-)
+* 🧮 [Development](#development-)
+    * ⚡️ [Contributing](#contributing-)
+    * 🌈 [Contributors](#contributors-)
+* 📄 [License](#license-)
+    * © [Copyright](#copyright-)
+* 🤝 [Code of Conduct](#code-of-conduct-)
+* 📌 [Versioning](#versioning-)
 
 [Why-Build-This]: https://github.com/rubocop-lts/.github/blob/main/profile/WHY_BUILD_THIS.md
 [Convention-Over-Configuration]: https://github.com/rubocop-lts/.github/blob/main/profile/CONV_OVER_CONF.md
