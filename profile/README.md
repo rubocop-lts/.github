@@ -30,7 +30,7 @@
 |👩‍💻 [Org Health](#org-health-)
 |✨ [Installation](#installation-)
 |🔧 [Usage](#usage-)
-|🏗️ [Development](#development-)
+|🧮 [Development](#development-)
 --⊕⚡️ [Contributing](#contributing-)
 --⊕🌈 [Contributors](#contributors-)
 |📄 [License](#license-)
@@ -109,7 +109,7 @@ Ruby 1.9.3 is supported for installation, and 1.8.7 for syntax.
 [what1_8]: https://github.com/rubocop-lts/rubocop-ruby1_9#what-about-ruby-18
 </details>
 
-## Development 🏗️
+## Development 🧮
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
