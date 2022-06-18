@@ -27,16 +27,16 @@
 --⊕🌱 [Odd Releases][Odd-Major-Release]
 |🌱 [How to Upgrade Ruby (1.8 to 3.2)!][How-To-Upgrade-Ruby]
 | **THIS README**
-|👩‍💻 [Org Health](#👩‍💻-org-health])
-|✨ [Installation](#✨-installation)
-|🔧 [Usage](#🔧-usage)
-|🏗️ [Development](#🏗️-development)
---⊕⚡️ [Contributing](#⚡️-contributing)
---⊕🌈 [Contributors](#🌈-contributors)
-|📄 [License](#📄-license)
-|⊕© [Copyright](#©-copyright)
-|🤝 [Code of Conduct](#🤝-code-of-conduct)
-|📌 [Versioning](#📌-versioning)
+|👩‍💻 [Org Health](#org-health-)
+|✨ [Installation](#installation-)
+|🔧 [Usage](#usage-)
+|🏗️ [Development](#development-)
+--⊕⚡️ [Contributing](#contributing-)
+--⊕🌈 [Contributors](#contributors-)
+|📄 [License](#license-)
+|⊕© [Copyright](#copyright-)
+|🤝 [Code of Conduct](#code-of-conduct-)
+|📌 [Versioning](#versioning-)
 
 [Why-Build-This]: https://github.com/rubocop-lts/.github/blob/main/profile/WHY_BUILD_THIS.md
 [Convention-Over-Configuration]: https://github.com/rubocop-lts/.github/blob/main/profile/CONV_OVER_CONF.md
@@ -44,7 +44,7 @@
 [Odd-Major-Release]: https://github.com/rubocop-lts/.github/blob/main/profile/CONV_OVER_CONF.md#odd-major-release
 [How-To-Upgrade-Ruby]: https://github.com/rubocop-lts/.github/blob/main/profile/HOW_TO_UPGRADE_RUBY.md
 
-## 👩‍💻 Org Health
+## Org Health 👩‍💻
 
 | Gem Name                     | Version                             | Downloads                                                            | CI                                                                                                 | Activity                                                                                                                                              |
 |------------------------------|-------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@
 | [`rubocop-ruby3_0`][⛳️30-gh] | [![Gem Version][⛳️30-vi]][⛳️30-g]   | [![Total DL][🖇️30-dti]][⛳️30-g] [![DL Rank][🏘️30-rti]][⛳️30-g]     | [![Current][🚎30-cwfi]][🚎30-cwf] [![Heads][🖐30-hwfi]][🖐30-hwf]                                  | [![Open Issues][📗30-ioi]][📗30-io] [![Closed Issues][🚀30-ici]][🚀30-ic] [![Open PRs][💄30-poi]][💄30-po] [![Closed PRs][👽30-pci]][👽30-pc]         |
 | [`rubocop-ruby3_1`][⛳️31-gh] | [![Gem Version][⛳️31-vi]][⛳️31-g]   | [![Total DL][🖇️31-dti]][⛳️31-g] [![DL Rank][🏘️31-rti]][⛳️31-g]     | [![Current][🚎31-cwfi]][🚎31-cwf] [![Heads][🖐31-hwfi]][🖐31-hwf]                                  | [![Open Issues][📗31-ioi]][📗31-io] [![Closed Issues][🚀31-ici]][🚀31-ic] [![Open PRs][💄31-poi]][💄31-po] [![Closed PRs][👽31-pci]][👽31-pc]         |
 
-## ✨ Installation
+## Installation ✨
 
 Without bundler execute:
 
@@ -79,7 +79,7 @@ And then execute:
 
     $ bundle
 
-## 🔧 Usage
+## Usage 🔧
 
 The following is optional.  We'll discuss why you might want to do this after you see what it does.
 
@@ -109,7 +109,7 @@ Ruby 1.9.3 is supported for installation, and 1.8.7 for syntax.
 [what1_8]: https://github.com/rubocop-lts/rubocop-ruby1_9#what-about-ruby-18
 </details>
 
-## 🏗️ Development
+## Development 🏗️
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
@@ -159,17 +159,17 @@ Odd versions use the token `odd` in the branch name.
 
 [lts1_8]: https://github.com/rubocop-lts/rubocop-lts#supporting-ruby-18
 
-### ⚡️ Contributing
+### Contributing ⚡️
 
 See [CONTRIBUTING.md][contributing]
 
-### 🌈 Contributors
+### Contributors 🌈
 
 [![Contributors](https://contrib.rocks/image?repo=rubocop-lts/rubocop-lts)]("https://github.com/rubocop-lts/rubocop-lts/graphs/contributors")
 
 Made with [contributors-img](https://contrib.rocks).
 
-## 📄 License
+## License 📄
 
 The gem is available as open source under the terms of
 the [MIT License][license] [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)][license-ref].
@@ -194,15 +194,15 @@ License: [Unsplash License][org-logo-license]
 [org-logo-source]: https://unsplash.com/photos/yaSLNLtKRIU
 [org-logo-license]: https://unsplash.com/license
 
-### © Copyright
+### Copyright ©
 
 * Copyright (c) 2022 [Peter H. Boling][peterboling] of [Rails Bling][railsbling]
 
-## 🤝 Code of Conduct
+## Code of Conduct 🤝
 
 Everyone interacting in the RuboCop LTS codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/rubocop-lts/rubocop-lts/blob/main/CODE_OF_CONDUCT.md).
 
-## 📌 Versioning
+## Versioning 📌
 
 This library aims to adhere to [Semantic Versioning 2.0.0][semver]. Violations of this scheme should be reported as
 bugs. Specifically, if a minor or patch version is released that breaks backward compatibility, a new version should be
