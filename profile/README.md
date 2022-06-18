@@ -27,7 +27,7 @@
 --⊕🌱 [Odd Releases][Odd-Major-Release]
 |🌱 [How to Upgrade Ruby (1.8 to 3.2)!][How-To-Upgrade-Ruby]
 | **THIS README**
-|👩‍💻 [Org Health](#👩‍💻-project-health])
+|👩‍💻 [Org Health](#👩‍💻-org-health])
 |✨ [Installation](#✨-installation)
 |🔧 [Usage](#🔧-usage)
 |🏗️ [Development](#🏗️-development)
