@@ -1,13 +1,23 @@
-# RuboCop LTS - Semantically Versioned
+<p align="center">
+    <a href="https://rubocop.org#gh-light-mode-only"  target="_blank" rel="noopener">
+      <img height="120px" src="https://github.com/rubocop-lts/rubocop-lts/raw/main/docs/images/logo/rubocop-light.svg?raw=true" alt="SVG RuboCop Logo, Copyright (c) 2014 Dimiter Petrov, CC BY-NC 4.0, see docs/images/logo/README.txt">
+    </a>
+    <a href="https://rubocop.org#gh-dark-mode-only"  target="_blank" rel="noopener">
+      <img height="120px" src="https://github.com/rubocop-lts/rubocop-lts/raw/main/docs/images/logo/rubocop-dark.svg?raw=true" alt="SVG RuboCop Logo, Copyright (c) 2014 Dimiter Petrov, CC BY-NC 4.0, see docs/images/logo/README.txt">
+    </a>
+    <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
+      <img height="120px" src="https://github.com/rubocop-lts/rubocop-lts/raw/main/docs/images/logo/ruby-logo.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5, see docs/images/logo/README.txt">
+    </a>
+    <a href="https://semver.org/#gh-light-mode-only" target="_blank" rel="noopener">
+      <img height="120px" src="https://github.com/rubocop-lts/rubocop-lts/raw/main/docs/images/logo/semver-light.svg?raw=true" alt="SemVer.org Logo by @maxhaz, see docs/images/logo/README.txt">
+    </a>
+    <a href="https://semver.org/#gh-dark-mode-only" target="_blank" rel="noopener">
+      <img height="120px" src="https://github.com/rubocop-lts/rubocop-lts/raw/main/docs/images/logo/semver-dark.svg?raw=true" alt="SemVer.org Logo by @maxhaz, see docs/images/logo/README.txt">
+    </a>
+</p>
 
-## Why Build This?
+# RuboCop LTS - Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
 
-### 🙋‍♀️ How often has RuboCop broken your build?
+We've moved!  GitHub's Copilot has [kicked open source](https://github.com/ghexit) developers [in the teeth](https://gitlab.com/upend/github/evac-guide), so our new home is on GitLab.
 
-This is both good (literally its job) _and_ bad (when it's for the wrong reasons).
-
-It's supposed to break the build when it finds violations.
-It should not break the build due to incompatibility with your environment.  RuboCop
-doesn't _exactly_ [follow SemVer](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj), and occasionally it will unexpectedly break things.
-
-Here's a [recent example](https://github.com/sunny/actor/pull/65#pullrequestreview-999365028) of a scenario that could have been avoided, and from now on will be!
+Please see our new homepage at [https://rubocop-lts.gitlab.io/HOW_TO_UPGRADE_RUBY/](https://rubocop-lts.gitlab.io/HOW_TO_UPGRADE_RUBY/)
