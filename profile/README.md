@@ -20,4 +20,4 @@
 
 We've moved!  GitHub's Copilot has [kicked open source](https://github.com/ghexit) developers [in the teeth](https://gitlab.com/upend/github/evac-guide), so our new home is on GitLab.
 
-Please see our new homepage at [https://rubocop-lts.gitlab.io/HOW_TO_UPGRADE_RUBY/](https://rubocop-lts.gitlab.io/HOW_TO_UPGRADE_RUBY/)
+Please see our new homepage at [https://rubocop-lts.gitlab.io](https://rubocop-lts.gitlab.io)
