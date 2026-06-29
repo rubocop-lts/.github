@@ -1,24 +1,8 @@
-<p align="center">
-    <a href="https://rubocop.org#gh-light-mode-only"  target="_blank" rel="noopener">
-      <img height="120px" src="https://github.com/rubocop-lts/rubocop-lts/raw/main/docs/images/logo/rubocop-light.svg?raw=true" alt="SVG RuboCop Logo, Copyright (c) 2014 Dimiter Petrov, CC BY-NC 4.0, see docs/images/logo/README.txt">
-    </a>
-    <a href="https://rubocop.org#gh-dark-mode-only"  target="_blank" rel="noopener">
-      <img height="120px" src="https://github.com/rubocop-lts/rubocop-lts/raw/main/docs/images/logo/rubocop-dark.svg?raw=true" alt="SVG RuboCop Logo, Copyright (c) 2014 Dimiter Petrov, CC BY-NC 4.0, see docs/images/logo/README.txt">
-    </a>
-    <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
-      <img height="120px" src="https://github.com/rubocop-lts/rubocop-lts/raw/main/docs/images/logo/ruby-logo.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5, see docs/images/logo/README.txt">
-    </a>
-    <a href="https://semver.org/#gh-light-mode-only" target="_blank" rel="noopener">
-      <img height="120px" src="https://github.com/rubocop-lts/rubocop-lts/raw/main/docs/images/logo/semver-light.svg?raw=true" alt="SemVer.org Logo by @maxhaz, see docs/images/logo/README.txt">
-    </a>
-    <a href="https://semver.org/#gh-dark-mode-only" target="_blank" rel="noopener">
-      <img height="120px" src="https://github.com/rubocop-lts/rubocop-lts/raw/main/docs/images/logo/semver-dark.svg?raw=true" alt="SemVer.org Logo by @maxhaz, see docs/images/logo/README.txt">
-    </a>
-</p>
+<a href="https://github.com/rubocop-lts"><img alt="rubocop-lts Logo by Aboling0, CC BY-SA 4.0" src="https://logos.galtzo.com/assets/images/rubocop-lts/avatar-128px.svg" width="14%" align="right"/></a>
 
 # RuboCop LTS - Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
 
-💡 See the intro [blog post](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)!
+💡 See the intro [blog post](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)! <a href="https://discord.gg/3qme4XHNKN"><img alt="Galtzo FLOSS Logo by Aboling0, CC BY-SA 4.0" src="https://logos.galtzo.com/assets/images/galtzo-floss/avatar-128px.svg" width="8%" align="right"/></a> <a href="https://ruby-toolbox.com"><img alt="ruby-lang Logo, Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5" src="https://logos.galtzo.com/assets/images/ruby-lang/avatar-128px.svg" width="8%" align="right"/></a>
 
 ---
 
