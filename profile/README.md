@@ -1,6 +1,6 @@
 <a href="https://github.com/rubocop-lts"><img alt="rubocop-lts Logo by Aboling0, CC BY-SA 4.0" src="https://logos.galtzo.com/assets/images/rubocop-lts/avatar-128px.svg" width="14%" align="right"/></a>
 
-# RuboCop LTS - Rules for Rubies: Rubocop + Standard + Betterlint + Shopify + Gradual
+# RuboCop LTS - Rules for Rubies: Rubocop + Standard + Betterlint + Gradual
 
 💡 See the intro [blog post](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)! <a href="https://discord.gg/3qme4XHNKN"><img alt="Galtzo FLOSS Logo by Aboling0, CC BY-SA 4.0" src="https://logos.galtzo.com/assets/images/galtzo-floss/avatar-128px.svg" width="8%" align="right"/></a> <a href="https://ruby-toolbox.com"><img alt="ruby-lang Logo, Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5" src="https://logos.galtzo.com/assets/images/ruby-lang/avatar-128px.svg" width="8%" align="right"/></a>
 
