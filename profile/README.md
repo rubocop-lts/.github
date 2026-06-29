@@ -6,7 +6,7 @@
 
 ---
 
-The **RuboCop LTS** family of gems is the distillation of almost 20 years
+The **RuboCop LTS** family of gems is the distillation of 20+ years
 of my own Ruby expertise and source code diving,
 built on the shoulders of the expertise of many others;
 organizing that expertise into per-Ruby-version sets of configurations.
